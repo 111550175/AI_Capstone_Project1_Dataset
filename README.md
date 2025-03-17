@@ -16,11 +16,11 @@ Every data was referred to the website: <https://www.101weiqi.com/chessbook/>, a
 The dataset I used in my training was: game_board_info_<150/200/final>.csv, and games_feature_<150/200/final>_new.csv.  
 
 - game_board_info<150/200/final>.csv: 
-    - Total Samples: 2233
+    - Total Samples: 2307
     - Features: The final board situation of the game (19x19 array filled with "1"(black), "2"(white), and "."(empty) )
     - Target: Winner (W for white or B for black)
 - games_feature_<150/200/final>_new.csv:
-    - Total Samples: 2233
+    - Total Samples: 2307
     - Features: Four numerical attributes (Board Diff, Corner Diff, Territory Diff, Liberty Diff)
     - Target: Winner (W for white or B for black)  
 
